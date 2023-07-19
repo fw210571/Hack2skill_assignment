@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-19T15:45:43 IST" name="Suite" finished-at="2023-07-19T15:45:53 IST" duration-ms="9632">
+    <groups>
+    </groups>
+    <test started-at="2023-07-19T15:45:43 IST" name="Test" finished-at="2023-07-19T15:45:53 IST" duration-ms="9632">
+      <class name="Testcases.TestCasesClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.TestCasesClass@7dfb0c0f]" started-at="2023-07-19T15:45:43 IST" name="setup" finished-at="2023-07-19T15:45:46 IST" duration-ms="2659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_broken_img()[pri:1, instance:Testcases.TestCasesClass@7dfb0c0f]" started-at="2023-07-19T15:45:46 IST" name="validate_broken_img" finished-at="2023-07-19T15:45:51 IST" duration-ms="4469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_broken_img -->
+        <test-method signature="upload_file()[pri:2, instance:Testcases.TestCasesClass@7dfb0c0f]" started-at="2023-07-19T15:45:51 IST" name="upload_file" finished-at="2023-07-19T15:45:53 IST" duration-ms="2481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upload_file -->
+      </class> <!-- Testcases.TestCasesClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
