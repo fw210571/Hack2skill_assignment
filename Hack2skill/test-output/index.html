@@ -1,262 +1,299 @@
+
+
 <!DOCTYPE html>
-
 <html>
-  <head>
-  <meta charset='utf-8'>
-  <title>TestNG reports</title>
-
-    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript" src="testng-reports.js"></script>
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type='text/javascript'>
-      google.load('visualization', '1', {packages:['table']});
-      google.setOnLoadCallback(drawTable);
-      var suiteTableInitFunctions = new Array();
-      var suiteTableData = new Array();
-    </script>
-    <!--
-      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
-     -->
-  </head>
-
-  <body>
-    <div class="top-banner-root">
-      <span class="top-banner-title-font">Test results</span>
-      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
-      <br/>
-      <span class="top-banner-font-1">1 suite</span>
-    </div> <!-- top-banner-root -->
-    <div class="navigator-root">
-      <div class="navigator-suite-header">
-        <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
-          </img> <!-- collapse-all-icon -->
-        </a> <!-- collapse-all-link -->
-      </div> <!-- navigator-suite-header -->
-      <div class="suite">
-        <div class="rounded-window">
-          <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
-            </a> <!-- navigator-link -->
-          </div> <!-- suite-header light-rounded-window-top -->
-          <div class="navigator-suite-content">
-            <div class="suite-section-title">
-              <span>Info</span>
-            </div> <!-- suite-section-title -->
-            <div class="suite-section-content">
-              <ul>
-                <li>
-                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\harsh\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Hack2skill\testng.xml</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>0 groups</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" panel-name="times-Suite" class="navigator-link ">
-                    <span>Times</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
-                    <span>Reporter output</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
-                    <span>Ignored methods</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
-                    <span>Chronological view</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-              </ul>
-            </div> <!-- suite-section-content -->
-            <div class="result-section">
-              <div class="suite-section-title">
-                <span>Results</span>
-              </div> <!-- suite-section-title -->
-              <div class="suite-section-content">
-                <ul>
-                  <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.TestCasesClass" class="method navigator-link" hash-for-method="upload_file">upload_file</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Testcases.TestCasesClass" class="method navigator-link" hash-for-method="validate_broken_img">validate_broken_img</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
-                  </li>
-                </ul>
-              </div> <!-- suite-section-content -->
-            </div> <!-- result-section -->
-          </div> <!-- navigator-suite-content -->
-        </div> <!-- rounded-window -->
-      </div> <!-- suite -->
-    </div> <!-- navigator-root -->
-    <div class="wrapper">
-      <div class="main-panel-root">
-        <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Testcases.TestCasesClass</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="upload_file">
-                  </a> <!-- upload_file -->
-                  <span class="method-name">upload_file</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validate_broken_img">
-                  </a> <!-- validate_broken_img -->
-                  <span class="method-name">validate_broken_img</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-        </div> <!-- panel Suite -->
-        <div panel-name="test-xml-Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\harsh\Documents\workspace-spring-tool-suite-4-4.18.0.RELEASE\Hack2skill\testng.xml</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <pre>
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;utility.ExtentReporterNG&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Testcases.TestCasesClass&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
-&lt;/suite&gt; &lt;!-- Suite --&gt;
-            </pre>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="testlist-Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <ul>
-              <li>
-                <span class="test-name">Test (1 class)</span>
-              </li>
-            </ul>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="group-Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="times-Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="times-div">
-              <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Suite');
-function tableData_Suite() {
-var data = new google.visualization.DataTable();
-data.addColumn('number', 'Number');
-data.addColumn('string', 'Method');
-data.addColumn('string', 'Class');
-data.addColumn('number', 'Time (ms)');
-data.addRows(2);
-data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validate_broken_img')
-data.setCell(0, 2, 'Testcases.TestCasesClass')
-data.setCell(0, 3, 4469);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'upload_file')
-data.setCell(1, 2, 'Testcases.TestCasesClass')
-data.setCell(1, 3, 2481);
-window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
-return data;
-}
-              </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
-              <div id="times-div-Suite">
-              </div> <!-- times-div-Suite -->
-            </div> <!-- times-div -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="reporter-Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="ignored-methods-Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="chronological-Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Methods in chronological order</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="chronological-class">
-              <div class="chronological-class-name">Testcases.TestCasesClass</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">validate_broken_img</span>
-                <span class="method-start">2675 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">upload_file</span>
-                <span class="method-start">7147 ms</span>
-              </div> <!-- test-method -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-      </div> <!-- main-panel-root -->
-    </div> <!-- wrapper -->
-  </body>
-<script type="text/javascript" src="testng-reports2.js"></script>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Report 1</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jul 19, 2023 03:45:43 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">upload_file</p>
+            <p class="text-sm">
+              <span>3:45:53 pm</span> / <span>00:00:00:004</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">upload_file</h5>
+<span class='badge badge-success'>07.19.2023 3:45:53 pm</span>
+<span class='badge badge-danger'>07.19.2023 3:45:53 pm</span>
+<span class='badge badge-default'>00:00:00:004</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:45:53 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">validate_broken_img</p>
+            <p class="text-sm">
+              <span>3:45:53 pm</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">validate_broken_img</h5>
+<span class='badge badge-success'>07.19.2023 3:45:53 pm</span>
+<span class='badge badge-danger'>07.19.2023 3:45:53 pm</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:45:53 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jul 19, 2023 03:45:43 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jul 19, 2023 03:45:53 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>2</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>2</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"upload_file":0.004,"validate_broken_img":0
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Author</td>
+<td>Aditya Kumar</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 2,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
 </html>
